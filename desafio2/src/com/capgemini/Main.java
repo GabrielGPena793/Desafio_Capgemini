@@ -14,24 +14,34 @@ public class Main {
         System.out.print("Password: ");
         String password = scanner.nextLine();
 
-        constraints.minLength(password);
+        while (true){
+            constraints.minLength(password);
 
-        constraints.checkDigit(password);
+            constraints.checkDigit(password);
 
-        constraints.upperLetter(password);
+            constraints.upperLetter(password);
 
-        constraints.lowerLetter(password);
+            constraints.lowerLetter(password);
 
-        constraints.specialFeature(password);
+            constraints.specialFeature(password);
 
-        if (constraints.getErrors().size() > 0){
-            System.out.println();
-            System.out.println("weak password, improve your password:");
-            System.out.println("===============================================");
-            constraints.getErrors().forEach(System.out::println);
-            System.out.println("===============================================");
-        }else {
-            System.out.println("Password, Accepted!");
+            if (constraints.getErrors().size() > 0){
+                System.out.println();
+                System.out.println("weak password, improve your password:");
+                System.out.println("===============================================");
+                constraints.getErrors().forEach(System.out::println);
+                System.out.println("===============================================");
+            }else {
+                System.out.println("Password, Accepted!");
+                break;
+            }
+
+            constraints.errors.clear();
+
+            System.out.println("Try again");
+            System.out.print("Password: ");
+            password = scanner.nextLine();
+
         }
 
     }

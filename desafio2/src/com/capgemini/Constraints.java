@@ -64,7 +64,7 @@ public class Constraints {
         boolean found = false;
 
         for (char pass : password.toCharArray()){
-            if (pass > 'a' && pass < 'z'){
+            if (pass >= 'a' && pass <= 'z'){
                 found = true;
             }
         }
