@@ -25,7 +25,7 @@ public class Constraints {
         }
     }
 
-    //verigicando digitos
+    //verificando digitos
     public void checkDigit(String password){
 
         boolean found = false;
@@ -42,7 +42,7 @@ public class Constraints {
 
     }
 
-    //verificnado letras maiusculas
+    //verificando letras maiusculas
     public void upperLetter(String password){
 
         boolean found = false;
@@ -58,7 +58,7 @@ public class Constraints {
         }
     }
 
-    //verificnado letras menusculas
+    //verificando letras menusculas
     public void lowerLetter(String password){
 
         boolean found = false;
