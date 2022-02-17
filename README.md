@@ -18,5 +18,4 @@ Nesse repositório estão todos os desafios separados por pastas, onde cada past
 ---
 ### Rodando o desafio:
 - clonar o repositório
-- ir na pasta src > main > java > capgeemini > question1 > Question1Application
-- Rodar o programa
+- Rodar a classe main de cada desafio
