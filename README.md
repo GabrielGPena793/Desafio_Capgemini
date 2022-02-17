@@ -2,10 +2,11 @@
 
 Nesse repositório estão todos os desafios separados por pastas, onde cada pasta corresponde a um desafio
 
-Tecnologia usada: Java;
 
 ## Desafio 1 
-- [link de acesso a classe main](https://github.com/GabrielGPena793/Desafio_Capgemini/blob/main/desafio1/src/com/capgemini/Main.java)
+- Tencologia usada: SpringBoot, java, gradle
+- TODO link da classe
+
 
 
 ## Desafio 2
