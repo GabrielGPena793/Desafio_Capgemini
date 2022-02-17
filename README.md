@@ -5,9 +5,7 @@ Nesse repositório estão todos os desafios separados por pastas, onde cada past
 
 ## Desafio 1 
 - Tencologia usada: SpringBoot, java, gradle
-- TODO link da classe
-
-
+- Utilizei a classe StringUtils, da implementação: group: 'org.apache.commons', name: 'commons-lang3', version: '3.0';
 
 ## Desafio 2
 - Nesse desafio criei uma classe para as validações, para melhor organização do código!
@@ -16,3 +14,9 @@ Nesse repositório estão todos os desafios separados por pastas, onde cada past
 
 ## Desafio 3
 - em andamento...
+
+---
+### Rodando o desafio:
+- clonar o repositório
+- ir na pasta src > main > java > capgeemini > question1 > Question1Application
+- Rodar o programa
