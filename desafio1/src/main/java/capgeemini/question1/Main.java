@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import java.util.Scanner;
 
 @SpringBootApplication
-public class Question1Application {
+public class Main {
 
 	public static void main(String[] args) {
 
