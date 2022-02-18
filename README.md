@@ -9,6 +9,7 @@ O algoritimo dessa questão consegue fazer a escada de "*" independente da quant
 - Utilizei a classe StringUtils, da implementação: group: 'org.apache.commons', name: 'commons-lang3', version: '3.0';
 
 ## Desafio 2
+Todas as validações requeridas estão funcionando e retornará um aviso do que precisa melhorar, caso não esteja de acordo com os requisitos!
 - Nesse desafio criei uma classe para as validações, para melhor organização do código!
 - [Classe main](https://github.com/GabrielGPena793/Desafio_Capgemini/blob/main/desafio2/src/com/capgemini/Main.java)
 - [Classe Constraincts](https://github.com/GabrielGPena793/Desafio_Capgemini/blob/main/desafio2/src/com/capgemini/Constraints.java)
