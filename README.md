@@ -4,6 +4,7 @@ Nesse repositório estão todos os desafios separados por pastas, onde cada past
 
 
 ## Desafio 1 
+O algoritimo dessa questão consegue fazer a escada de "*" independente da quantidade informada na entrada! 
 - Tencologia usada: SpringBoot, java, gradle
 - Utilizei a classe StringUtils, da implementação: group: 'org.apache.commons', name: 'commons-lang3', version: '3.0';
 
